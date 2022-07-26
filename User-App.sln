@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1CC1389A-1015-438F-8A60-78C5312AC6AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B56E9F03-EED2-479A-8A04-3B9EF15B1BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.API", "API\UserManagement.API\UserManagement.API.csproj", "{00708954-F917-45E0-8FC8-02F7F31CEC25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00708954-F917-45E0-8FC8-02F7F31CEC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00708954-F917-45E0-8FC8-02F7F31CEC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00708954-F917-45E0-8FC8-02F7F31CEC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00708954-F917-45E0-8FC8-02F7F31CEC25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00708954-F917-45E0-8FC8-02F7F31CEC25} = {1CC1389A-1015-438F-8A60-78C5312AC6AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F373AB93-7F70-4A4F-9A9A-555598397E8F}
+	EndGlobalSection
+EndGlobal
